@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "custom name colors",
+        "description": "lets players on a server chose the color of their name",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Skye'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
